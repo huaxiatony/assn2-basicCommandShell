@@ -18,5 +18,16 @@ int main(){
 	while(flag == True){
 		cout <<"$ ";
 		getline(cin, input);
-		
+		checkAnd();
+		checkOr();
+}
+
+void checkAnd(){
+
+
+}
+
+void checkOr(){
+
+
 }

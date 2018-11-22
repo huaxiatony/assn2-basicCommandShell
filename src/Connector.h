@@ -26,7 +26,7 @@ public:
     Connector(){};
     ~Connector(){};
     bool statusTest(){};
-    virtual int execute() = 0;
+    virtual int execute() = 0;  //This is the flag for testing result.
 };
 
 #endif /* Connector_h */
